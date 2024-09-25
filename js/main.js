@@ -306,7 +306,7 @@
 
         //Google Maps
         if ($(".lmpixels-map")[0]){
-            var address = 'Buziga shell, Lululi Road, Kampala, Uganda', //Replace with Your Address
+            var address = 'Buziga, Kibrige Rd, Kampala, Uganda', //Replace with Your Address
                 address = encodeURIComponent(address),
                 src = 'https://maps.google.com/maps?q=' + address + '&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near&output=embed';
             $(".lmpixels-map iframe").attr("src", src);
